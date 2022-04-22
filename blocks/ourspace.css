@@ -1,0 +1,155 @@
+.ourspace__line {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 52px;
+}
+
+.ourspace__title {
+  font-family: "Lora", serif;
+  font-size: 40px;
+  line-height: 51.2px;
+  font-weight: 700;
+  font-style: normal;
+  color: #10375c;
+  margin-right: 55px;
+}
+
+.ourspace__text {
+  font-family: "Lato", serif;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
+  font-style: normal;
+  color: #9a9a9a;
+  width: 452px;
+}
+
+.ourspace__buttons {
+  display: flex;
+  align-items: center;
+  align-self: end;
+  width: 168px;
+  justify-content: space-between;
+}
+
+.ourspace__button {
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  background-image: url(../images/left_arrow.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 52.69px;
+  height: 26.05px;
+}
+
+.ourspace__button_type_right {
+  background-image: url(../images/right_arrow.svg);
+  width: 91.69px;
+}
+
+.ourspace__gallery {
+  width: 100%;
+  display: flex;
+  align-items: start;
+}
+
+.ourspace__slide {
+  width: 350px;
+  position: relative;
+}
+
+.ourspace__slide_active {
+  height: 467px;
+  position: relative;
+  margin: 0 30px 50px 30px;
+}
+
+.ourspace__slide_active .ourspace__image {
+  height: 100%;
+}
+
+.ourspace__image {
+  width: 100%;
+  height: 419px;
+  object-fit: cover;
+  object-position: center;
+  vertical-align: bottom;
+  background-color: #10375c;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.ourspace__image h4 {
+  font-family: "Lora", serif;
+  font-size: 32px;
+  line-height: 41px;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  text-align: center;
+  margin-bottom: 14px;
+}
+
+.ourspace__image p {
+  font-family: "Lato", serif;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  text-align: center;
+  width: 253px;
+  margin: 0 auto;
+}
+
+.ourspace__square {
+  margin: 16px 16px 38px auto;
+  width: 90px;
+  height: 90px;
+  background-image: url(../images/square_strips.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.ourspace__figcaption {
+  font-family: "Lato", serif;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+  font-style: normal;
+  color: #222831;
+  width: 100%;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.ourspace__rectangle {
+  width: 72px;
+  height: 72px;
+  background-color: #ff5722;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 0;
+  bottom: calc(25px + 24px);
+}
+
+.ourspace__rectangle p {
+  font-family: "Lato", serif;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  margin-right: 22px;
+}
+
+.ourspace__rectangle_size_big {
+  width: 255px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}

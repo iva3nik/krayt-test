@@ -58,3 +58,7 @@ input {
   -moz-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
 }
+
+.page__margin-bottom-big {
+  margin-bottom: 112px;
+}
