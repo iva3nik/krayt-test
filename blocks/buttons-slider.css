@@ -1,0 +1,28 @@
+.buttons-slider {
+  display: flex;
+  align-items: center;
+  align-self: end;
+  width: 168px;
+  justify-content: space-between;
+}
+
+.buttons-slider__button {
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  background-image: url(../images/left_arrow.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 52.69px;
+  height: 26.05px;
+  transition: all 0.3s linear;
+}
+
+.buttons-slider__button_type_right {
+  background-image: url(../images/right_arrow.svg);
+  width: 91.69px;
+}
+
+.buttons-slider__button:hover {
+  opacity: 0.6;
+}

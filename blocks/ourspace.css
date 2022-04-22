@@ -25,30 +25,6 @@
   width: 452px;
 }
 
-.ourspace__buttons {
-  display: flex;
-  align-items: center;
-  align-self: end;
-  width: 168px;
-  justify-content: space-between;
-}
-
-.ourspace__button {
-  border: none;
-  background-color: transparent;
-  padding: 0;
-  background-image: url(../images/left_arrow.svg);
-  background-position: center;
-  background-repeat: no-repeat;
-  width: 52.69px;
-  height: 26.05px;
-}
-
-.ourspace__button_type_right {
-  background-image: url(../images/right_arrow.svg);
-  width: 91.69px;
-}
-
 .ourspace__gallery {
   width: 100%;
   display: flex;

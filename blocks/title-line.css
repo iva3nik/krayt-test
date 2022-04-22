@@ -1,0 +1,21 @@
+.title-line {
+  display: flex;
+}
+
+.title-line__title {
+  font-family: "Lato", serif;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+  font-style: normal;
+  color: #222831;
+  margin-right: 15px;
+}
+
+.title-line__line {
+  height: 2px;
+  width: 73px;
+  background-color: #222831;
+  margin: 17px 0 0 0;
+  border: none;
+}
