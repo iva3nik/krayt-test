@@ -1,5 +1,10 @@
 .title-line {
   display: flex;
+  color: #222831;
+}
+
+.title-line_color_white {
+  color: white;
 }
 
 .title-line__title {
@@ -8,7 +13,6 @@
   line-height: 30px;
   font-weight: 400;
   font-style: normal;
-  color: #222831;
   margin-right: 15px;
 }
 
@@ -16,6 +20,14 @@
   height: 2px;
   width: 73px;
   background-color: #222831;
+  margin: 17px 0 0 0;
+  border: none;
+}
+
+.title-line__line_color_white {
+  height: 2px;
+  width: 73px;
+  background-color: white;
   margin: 17px 0 0 0;
   border: none;
 }
