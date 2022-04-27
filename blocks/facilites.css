@@ -1,0 +1,49 @@
+.facilites__title {
+  margin: 8px 0 56px;
+  width: 570px;
+  font-family: "Lora", serif;
+  font-size: 40px;
+  line-height: 51px;
+  font-weight: 700;
+  font-style: normal;
+  color: #10375c;
+}
+
+.facilites__content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.facilites__list {
+  width: 293px;
+}
+
+.facilites__item {
+  padding: 24px 0 24px 24px;
+  font-family: "Lato", serif;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+  font-style: normal;
+  color: #222831;
+  transition: all 0.2s linear;
+}
+
+.facilites__item_active {
+  background-color: #ff5722;
+  color: white;
+}
+
+.facilites__item:hover {
+  background-color: #ff5722;
+  color: white;
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.facilites__image {
+  width: 729px;
+  height: 453px;
+  object-fit: cover;
+  object-position: center;
+}
