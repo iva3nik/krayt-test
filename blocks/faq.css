@@ -63,19 +63,4 @@
 
 .faq__button {
   margin: 0 auto;
-  border: none;
-  background-color: transparent;
-  color: #ff5722;
-  display: flex;
-  align-items: center;
-  font-family: "Lato", serif;
-  font-size: 16px;
-  line-height: 26px;
-  font-weight: 400;
-  font-style: normal;
-  transition: all 0.3s linear;
-}
-
-.faq__button:hover {
-  opacity: 0.7;
 }
