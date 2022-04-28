@@ -1,0 +1,98 @@
+.footer {
+  background-color: #0d2c4a;
+  color: white;
+  padding-top: 56px;
+  padding-bottom: 102px;
+}
+
+.footer__content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__title {
+  font-family: "Lora", serif;
+  font-size: 52px;
+  line-height: 67px;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.footer__text {
+  margin: 16px 0 24px;
+  font-family: "Lato", serif;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  font-style: normal;
+  color: #f8f8f8;
+  width: 255px;
+}
+
+.footer__icons {
+  display: flex;
+  align-items: center;
+}
+
+.footer__icon {
+  margin-right: 16px;
+  transition: all 0.3s linear;
+}
+
+.footer__icon:hover {
+  opacity: 0.8;
+}
+
+.footer__image {
+  width: 24px;
+  height: 24px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.footer__navigation {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.footer__column {
+  margin-right: 68px;
+}
+
+.footer__column:last-of-type {
+  margin-right: 0;
+  width: 212px;
+}
+
+.footer__subtitle {
+  margin: 0 0 24px;
+  font-family: "Lato", serif;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 500;
+  font-style: normal;
+  color: #fff;
+  opacity: 0.5;
+}
+
+.footer__item {
+  margin-bottom: 9px;
+  font-family: "Lato", serif;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  font-style: normal;
+  transition: all 0.3s linear;
+}
+
+.footer__item:hover {
+  opacity: 0.6;
+}
+
+.footer__item a {
+  color: #fff;
+}
+
+.footer__item_active a {
+  color: #ff5722;
+}
