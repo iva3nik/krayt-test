@@ -1,0 +1,78 @@
+.reviews__line {
+  margin: 8px 0 54px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.reviews__title {
+  font-family: "Lora", serif;
+  font-size: 40px;
+  line-height: 51px;
+  font-weight: 700;
+  font-style: normal;
+  color: #10375c;
+  width: 399px;
+  margin-bottom: 2px;
+}
+
+.reviews__container {
+  display: flex;
+}
+
+.reviews__card {
+  background-color: #10375c;
+  width: 445px;
+  height: 393px;
+  padding: 47px 40px 35px;
+  box-sizing: border-box;
+  color: white;
+  flex-shrink: 0;
+  margin-right: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.reviews__comment {
+  font-family: "Lato", serif;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+}
+
+.reviews__user {
+  display: flex;
+}
+
+.reviews__photo {
+  width: 56px;
+  height: 56px;
+  object-fit: cover;
+  object-position: center;
+  margin-right: 16px;
+}
+
+.reviews__user-name {
+  font-family: "Lato", serif;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 700;
+  font-style: normal;
+  color: white;
+  margin-bottom: 4px;
+}
+
+.reviews__position {
+  font-family: "Lato", serif;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+}
+
+.reviews__loader {
+  margin-top: 32px;
+}
