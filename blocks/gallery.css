@@ -1,0 +1,37 @@
+.gallery {
+  position: relative;
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+}
+
+.gallery__info {
+  position: absolute;
+  left: calc(50% + 74px - 15px);
+  top: 0;
+  width: 496px;
+}
+
+.gallery__title {
+  font-family: "Lora", serif;
+  font-size: 40px;
+  line-height: 51px;
+  font-weight: 700;
+  font-style: normal;
+  color: #10375c;
+  margin: 8px 0 38px;
+}
+
+.gallery__image {
+  margin: 0 15px;
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+  object-position: center;
+  vertical-align: top;
+}
+
+.gallery__image_active {
+  width: 445px;
+  height: 606px;
+}
