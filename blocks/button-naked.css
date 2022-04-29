@@ -11,7 +11,7 @@
   opacity: 0.7;
 }
 
-.button-naked p {
+.button-naked span {
   color: #ff5722;
   font-family: "Lato", serif;
   font-size: 16px;
